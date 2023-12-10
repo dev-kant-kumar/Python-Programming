@@ -1,2 +1,2 @@
-# Ignore secret
+# Ignore .env file
 .env
