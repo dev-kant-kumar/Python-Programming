@@ -1,4 +1,5 @@
 <img width="1024" height="1024" alt="ChatGPT Image Nov 14, 2025, 11_37_27 PM" src="https://github.com/user-attachments/assets/b1d77493-f8f6-4930-8f76-5c36c845717e" />
+
 # 🐍 Python Programming Journey
 
 Welcome to my Python Programming repository! This is a comprehensive collection of my coding journey as I master Python programming, from basic exercises to complex projects.
