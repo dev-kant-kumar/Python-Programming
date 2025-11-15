@@ -5,6 +5,7 @@ detector = dlib.get_frontal_face_detector()
 
 #star main webcam
 video = cv2.VideoCapture(0)
+
 video.set(cv2.CAP_PROP_FRAME_WIDTH,1280)
 video.set(cv2.CAP_PROP_FRAME_HEIGHT,720)
 
@@ -65,7 +66,7 @@ while True:
 
 
     # show frame
-    cv2.imshow('Face Recognition System',frame)
+    cv2.imshow('Face Detection System',frame)
 
     # exit on 'q' key press and 'f' to toggle fullscreen
     key = cv2.waitKey(1) & 0xFF
@@ -73,11 +74,11 @@ while True:
     if key == ord('q'):
         break
     elif key == ord('f'):
-        current = cv2.getWindowProperty('Face Recognition System',cv2.WND_PROP_FULLSCREEN)
+        current = cv2.getWindowProperty('Face Detection System',cv2.WND_PROP_FULLSCREEN)
         if current == cv2.WINDOW_FULLSCREEN:
-            cv2.setWindowProperty('Face Recognition System',cv2.WND_PROP_FULLSCREEN,cv2.WINDOW_NORMAL)
+            cv2.setWindowProperty('Face Detection System',cv2.WND_PROP_FULLSCREEN,cv2.WINDOW_NORMAL)
         else:
-            cv2.setWindowProperty('Face Recognition System',cv2.WND_PROP_FULLSCREEN,cv2.WINDOW_FULLSCREEN)
+            cv2.setWindowProperty('Face Detection System',cv2.WND_PROP_FULLSCREEN,cv2.WINDOW_FULLSCREEN)
 
 
 
